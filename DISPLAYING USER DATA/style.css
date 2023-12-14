@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    background: black;
+    color: #ccc;
+    border: none;
+    border-radius: 10px;
+}
+
+#userContainer {
+    margin-top: 20px;
+}
+
+.userCard {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+}
+
+.userAvatar {
+    max-width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.userName, .userEmail {
+    margin: 0;
+}
