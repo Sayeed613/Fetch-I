@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h2>User Information</h2>
+        <form id="userForm">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="age">Age:</label>
+          <input type="number" id="age" name="age" required>
+
+          <button type="button" onclick="storeUserData()">Submit</button>
+        </form>
+
+        <button type="button" onclick="retrieveUserData()">Retrieve and Display Data</button>
+
+        <div id="displayArea"></div>
+      </div>
+    <script src="./script.js"></script>
+</body>
+</html>
